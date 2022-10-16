@@ -73,7 +73,44 @@ Dataset used is consisting of data related to the tweets from 24th of July 2020 
 
 </div>
 
-2. Labels the score based on its polarity score according to the following criteria.
+2. Labels the score based on its polarity score according to the following compound value criteria.
    
+<div align="center">
+
+| Compound Value                    | Label                                                           |   
+| -----------------------------   |:---------------------------------------------------------------------:|
+| 0                           | Neutral                          |
+| > 0                    | Positive           |
+| < 0                       | Negative |
+  
+</div>
+
+3. Plot the sentiment label count
+
+<div align="center">
+  
+![daily plot](https://github.com/definaa2412/Sentimental-Analysis-on-Covid-19-Tweets/blob/main/images/daily%20plot%20sentiment.png)
+  
+</div>
+  
+
+<p align="justify">  
+&nbsp;&nbsp;&nbsp;&nbsp; As we can see, in early July, Covid cases in several countries began to decrease as indicated by the Harvard Institute's plan to reopen schools or bars, while in Arkansan, which was marked by hospitalization rates having gone down.
+  
+&nbsp;&nbsp;&nbsp;&nbsp; Although in mid July, the cases gone up again indicating by the higher amount of tweet. In that time, discussion about vaccine has started by US Centers for Disease Control and Prevention, so we can conclude that the positive tweets mostly hope of vaccine success.
+</p>
+  
+4. Test Tweet
+  
+<div align="center">
    
+   ![test](https://github.com/definaa2412/Sentimental-Analysis-on-Covid-19-Tweets/blob/main/images/test%20sentiment.png)
+  
+</div>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp; As we can see, the VADER model predict the example tweet correctly, which is **negative**
+  
+## Conclusion
+
+**VADER** pre-trained model is good at recognizing someone's feeling on Covid-19 tweet data. For further learning, it is hoped that we also use other approaches in recognizing someone's feelings through tweet data. Thank you.
 
