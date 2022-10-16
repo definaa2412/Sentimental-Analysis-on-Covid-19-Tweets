@@ -57,3 +57,23 @@ Dataset used is consisting of data related to the tweets from 24th of July 2020 
 ## Goal
   To understand and analyze several public opinions about Covid-19 in certain period so the goverment or related organizations can make wise decisions about it.
 
+## Summary
+### Data Preprocessing
+1. Take only the needed columns (**user_name**, **date** and **text**)
+2. Remove URL from tweets.
+3. Convert all tweets to lowercase text.
+4. Removing punctuations and stop words.
+
+### Sentiment Analysis
+1. Get the polarity scores from all tweets using **VADER Sentiment Analysis** pre-trained model.
+
+<div align="center">
+  
+  ![Polarity](https://github.com/definaa2412/Sentimental-Analysis-on-Covid-19-Tweets/blob/main/images/Polarity%20Score.png)
+
+</div>
+
+2. Labels the score based on its polarity score according to the following criteria.
+   
+   
+
